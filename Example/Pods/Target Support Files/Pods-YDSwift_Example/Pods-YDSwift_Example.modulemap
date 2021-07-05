@@ -1,0 +1,6 @@
+framework module Pods_YDSwift_Example {
+  umbrella header "Pods-YDSwift_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

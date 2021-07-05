@@ -1,0 +1,16 @@
+PODS:
+  - YDSwift (0.1.0)
+
+DEPENDENCIES:
+  - YDSwift (from `../`)
+
+EXTERNAL SOURCES:
+  YDSwift:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YDSwift: 44776e7e735166b50d993b7a00ab68de25a71288
+
+PODFILE CHECKSUM: aff3758e379473f6133af2771eaddcb300ea0696
+
+COCOAPODS: 1.10.1

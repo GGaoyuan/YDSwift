@@ -9,7 +9,7 @@ import UIKit
 
 extension NSObject {
     
-    func test() {
+    public func test() {
         print("TestFunc")
     }
 }

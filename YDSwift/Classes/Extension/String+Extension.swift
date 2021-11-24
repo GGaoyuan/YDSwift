@@ -14,9 +14,9 @@ extension String {
     ///   - from: 开始的索引
     ///   - to: 结束的索引
     public func subString(from: Int, to: Int) -> String {
-        let start = index(startIndex, offsetBy: from)
-        let end = index(startIndex, offsetBy: to)
-        let result = self[start..<end]
+        let start = index(startIndex, offsetBy: (from > count-1 ? count-1 : from))
+        let end = index(startIndex, offsetBy: (to > count-1 ? count-1 : to))
+        let result = self[start...end]
         return String(result)
     }
 }
